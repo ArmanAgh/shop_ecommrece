@@ -269,8 +269,9 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(160px , auto));
     gap: 3rem;
+    padding: 3rem;
 }
-.first-info{
+.first-info img{
     width: 140px;
     height: auto;
 }
@@ -314,7 +315,7 @@ header.sticky{
 @media screen and (max-width:890px) {
     header{
         padding: 20px 3%;
-        transition: .4s;
+        transition : .4s;
     }
 }
 @media screen and (max-width:630px) {
@@ -348,9 +349,6 @@ header.sticky{
     .nav-menu a{
         display: block;
         margin: 18px 0;
-    }
-    .nav-menu.open{
-        
     }
 }
 
